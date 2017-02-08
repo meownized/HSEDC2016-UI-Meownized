@@ -32,7 +32,16 @@
   overflow: hidden;
 }
 
+.compact .sidebarSubmenuWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .compact .sidebarSubmenu ul {
+  width: 240px;
+}
+
+.compact .sidebarSubmenu ul:not(.sidebarSubmenuHeader) {
   position: relative;
   width: 240px;
   max-height: 284px;
@@ -40,14 +49,18 @@
   overflow-y: scroll;
 }
 
+.compact .sidebarSubmenu ul.sidebarSubmenuHeader {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background: white;
+  padding-bottom: 10px;
+}
+
 .compact .sidebarSubmenuItem {
   position: relative;
   z-index: 1;
   padding: 10px;
-}
-
-.compact .sidebarSubmenuItem:nth-child(2) {
-  margin-top: 10px;
 }
 
 .compact .sidebarSubmenu::before,
@@ -79,14 +92,13 @@
 }
 
 
-
-
-
 .compact .sidebarSubmenuHeader {
   position: absolute;
   top: 0px;
   left: 0;
   display: block;
+}
+.compact .sidebarSubmenuHeader li {
   border-bottom: 1px solid lightgrey;
 }
 

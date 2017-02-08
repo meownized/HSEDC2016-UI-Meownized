@@ -8,6 +8,7 @@
   height: 70px;
   margin-left: 300px;
   border-bottom: 1px solid lightgrey;
+  background: white;
   z-index: 1;
 }
 

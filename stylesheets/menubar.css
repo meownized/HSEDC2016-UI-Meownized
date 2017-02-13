@@ -23,7 +23,7 @@
   text-align: center;
   line-height: 70px;
   font-family: FontAwesome;
-  font-size: 20px;
+  font-size: 30px;
   content: '\f2be';
 }
 
@@ -43,10 +43,10 @@
 
 .userMenu li {
   position: relative;
-  z-index: 1;
   padding: 0 10px;
   line-height: 50px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .userMenu li:hover {

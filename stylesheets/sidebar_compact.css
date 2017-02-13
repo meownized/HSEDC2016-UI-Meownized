@@ -25,11 +25,8 @@
   position: absolute;
   left: 60px;
   width: 220px;
-  /*max-height: 284px;*/
-  /*padding-bottom: 60px;*/
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
   background: white;
-  overflow: hidden;
 }
 
 .compact .sidebarSubmenuWrapper {
@@ -43,7 +40,6 @@
 
 .compact .sidebarSubmenu ul:not(.sidebarSubmenuHeader) {
   position: relative;
-  width: 240px;
   max-height: 284px;
   padding-top: 60px;
   overflow-y: scroll;
@@ -51,10 +47,10 @@
 
 .compact .sidebarSubmenu ul.sidebarSubmenuHeader {
   position: absolute;
-  z-index: 2;
   width: 100%;
-  background: white;
   padding-bottom: 10px;
+  background: white;
+  z-index: 2;
 }
 
 .compact .sidebarSubmenuItem {
@@ -94,7 +90,7 @@
 
 .compact .sidebarSubmenuHeader {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   display: block;
 }
